@@ -1,0 +1,58 @@
+.red{
+    background-color: red;
+}
+
+.navbar, #about hgroup, footer {
+    margin: 0 -0.75rem;
+}
+
+.langs {
+    float: right;
+    margin-top: 10px;
+    margin-right: -7px;
+}
+    .langs li {
+        display: inline-block;
+        margin-right: 7px;
+    }
+        .langs a {
+            display: block;
+            width: 25px;
+            height: 16px;
+            text-indent: -99999px;
+            overflow: hidden;
+            background-image: url('../img/flags.png');
+            background-repeat: no-repeat;
+        }
+        .langs .en a {
+            background-position: 0 0;
+        }
+        .langs .uk a {
+            background-position: -25px 0;
+        }
+
+#about hgroup {
+    padding: 84px 16px 0 16px;
+    height: 229px;
+    background: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: cover;
+    color: #fff;
+    font-size: 200%;
+}
+        
+.text .pic {
+    text-align: center;
+}
+.text .pic img {
+    max-width: 90%;
+}
+
+#helpus .border {
+    height: 100%;
+}
+
+footer.bg-dark{
+    color: lightgray;
+} 
