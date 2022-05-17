@@ -1,5 +1,5 @@
-.red{
-    background-color: red;
+body > .container-lg {
+    padding-top: 66px;
 }
 
 .navbar, #about hgroup, footer {
